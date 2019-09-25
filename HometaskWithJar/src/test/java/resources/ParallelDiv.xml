@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="1" name="ParallDiv" annotations="test" parallel="classes">
+         
+  <test name="divDoubleTest">
+	 <classes>
+	   <class name="com.epam.tat.module4.DivDoubleTest"/>
+	   <parameter name="a" value ="4"/>
+    <parameter name="b" value ="0"/>
+	 </classes>
+   </test>
+   
+  <test name="divLongTest">
+     <classes>
+      <class name="com.epam.tat.module4.DivLongTest"/>
+      <parameter name="a" value ="4"/>
+    <parameter name="b" value ="0"/>
+     </classes>
+   </test>
+</suite>

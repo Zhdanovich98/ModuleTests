@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSin">
+  <test verbose="2" name="testSin">
+    <classes>
+      <class name="com.epam.tat.module4.SinTest"/>
+         <parameter name="a" value ="30"/>
+    </classes>
+  </test>
+</suite> 

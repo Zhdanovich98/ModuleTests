@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSum">
+  <test verbose="2" name="testSum">
+    <classes>
+      <class name="com.epam.tat.module4.SumDoubleTest"/>
+
+    </classes>
+  </test> 
+</suite>
