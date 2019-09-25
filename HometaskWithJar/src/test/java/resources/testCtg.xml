@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testCtg">
+  <test verbose="2" name="testCtg">
+    <classes>
+      <class name="com.epam.tat.module4.CtgTest"/>
+         <parameter name="a" value ="10"/>
+    </classes>
+  </test>
+</suite> 

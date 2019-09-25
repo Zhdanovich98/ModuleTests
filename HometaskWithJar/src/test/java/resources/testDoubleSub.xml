@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testDoubleSub">
+  <test verbose="2" name="testDoubleSub">
+    <classes>
+      <class name="com.epam.tat.module4.SubDoubleTest"/>
+    </classes>
+  </test> 
+</suite> 
